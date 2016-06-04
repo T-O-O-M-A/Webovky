@@ -25,13 +25,34 @@
 
 .projekt{
   //box-shadow:0 5px 5px 5px rgba(0,0,0,0.5);
-  margin-top:20px;
-  margin-left:auto;
-  margin-right:auto;
-  margin-bottom: 20px;
-  color: black;
-  max-width: 1200px;
-  //border-radius: 5px;
+  margin: 10px auto;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #8BC34A;
+  border-radius: 10px;
+  color: rgba(0,0,0,0);
+  width: 50vw;
+  height: 50vh;
+  background-size: cover;
+  transition: 1s all ease-in-out;
+  text-align: justify;
+  padding: 1%;
+}
+.projekt:hover{
+  color: white;
+}
+.flightdemo{
+  background-image: url("flightdemo.jpg");
+}
+.kosticka{
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  margin: 50px;
+  transition: 2s all ease-in-out;
+}
+.kosticka:hover{
+  transform: rotate(360deg) translate(200px);  
 }
 
 .container{
@@ -53,7 +74,7 @@
   margin: auto;   
 }
 
-.clen{
+.kulicka{
   height:300px;
   width: 300px;
   border-radius: 50%;
@@ -65,7 +86,7 @@
   text-align: center;
   margin:25px;
 }
-.clen:hover{
+.kulicka:hover{
   height:350px;
   width: 350px;
   border-radius: 50%;
@@ -106,6 +127,7 @@
 .text{
   margin:50px;
   text-align: justify;
+  color:#795548;
 }
 
 .landing{
@@ -115,7 +137,7 @@
   text-align: center;
 }
 span{
-  transition: all 1s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 span:hover{
   color: #8BC34A; 
@@ -171,4 +193,7 @@ td{
 hr{
   border-color: #8BC34A;
   width: 20vw;  
+}
+a{
+  color: #8BC34A;
 }
