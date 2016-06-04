@@ -14,7 +14,9 @@
 .hlavicka{
   margin:0;
   padding:0;
-  position: fixed 0px, 0px;
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 100vw;
   //height: 5vh;
   font-size: 200%;
@@ -57,7 +59,7 @@
 .clenove{
   margin-left: auto;
   margin-right: auto;
-  background-color: white;
+  //background-color: white;
   max-width: 1200px;
   box-shadow:0 0 5px 5px rgba(0,0,0,0.25)  
 }
@@ -69,36 +71,57 @@
   height:300px;
   width: 300px;
   border-radius: 50%;
-  background-image: url("http://www.tyden.cz/obrazek/201509/55f919c5e4dee/crop-873095-kocour-ge.jpg");
   background-size: cover;
   background-position: center;
   color: rgba(0,0,0,0);
   padding: 20px;
+  transition: all  1s ease-in-out;
 }
 .clen:hover{
-  height:300px;
-  width: 300px;
+  height:350px;
+  width: 350px;
   border-radius: 50%;
-  //background-image: ;
-  background: 
-    /* top, transparent red */ 
-    linear-gradient(
-      rgba(0, 0, 0, 0.45), 
-      rgba(0, 0, 0, 0.45)
-    ),
-    /* bottom, image */
-    url("http://www.tyden.cz/obrazek/201509/55f919c5e4dee/crop-873095-kocour-ge.jpg");
   background-size: cover;
   background-position: center;
-  color: white;
+  color: rgba(255,255,255,1);
   padding: 20px;
+  box-shadow: 0,0, 10px, 10px rgba(0,0,0,0.5);
+}
+.hajnina{
+
+}
+.tomda{
+  background-image: url("http://kingofwallpapers.com/face/face-021.jpg");
+}
+.tomda:hover{
+  background-image: url("http://www.kukatko.cz/wp-content/uploads/2012/07/leonardo-dicaprio-rozhovor-interview.jpg");
+}
+.bara{
+  background-image:url("https://i.ytimg.com/vi/OBBLXypP9Mk/maxresdefault.jpg");
+}
+.bara:hover{
+  background-image: url("http://orig10.deviantart.net/8989/f/2007/096/d/8/old_sketch_face_study_2_by_thierryclan14.jpg");
+}
+.gandalf{
+  background-image: url("http://galeriereklamy.mediar.cz/public/content-images/cz/a_files/2268_sm.jpg");  
+}
+.gandalf:hover{
+  background-image: url("http://marketingsales.tyden.cz/obrazek/201406/539fd8ec79408/crop-632326-kocour-page-01.jpg")
+}
+}
+.text{
+  margin:50px;
+  text-align: justify;
 }
 
 body{
   margin:0;
   padding:0;
+  padding-top:50px;
   font-family: "Open Sans";
-  background-image: url("http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/grey_wash_wall.png");
+  //background-image: url("http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/grey_wash_wall.png");
+  background-color: white;
+  //background-attachment: fixed;
 }
 
 li{
@@ -119,7 +142,9 @@ li:hover{
 img{
   height: 500px;
   display: block;
-  margin:auto;
+  padding: 10px;
+  margin-left:auto;
+  margin-right: auto;
   //border-radius: 5px;
 }
 
