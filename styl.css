@@ -88,7 +88,11 @@
   box-shadow: 0,0, 10px, 10px rgba(0,0,0,0.5);
 }
 .hajnina{
+  background-image: url("http://www.ziptrials.us/wp-content/uploads/2014/04/Happy-Man-Smiling.jpg");
 
+}
+.hajnina:hover{
+  background-image: url("http://cdn0.wideopencountry.com/wp-content/uploads/2015/10/nelly-793x526.png");
 }
 .tomda{
   background-image: url("http://kingofwallpapers.com/face/face-021.jpg");
@@ -97,10 +101,10 @@
   background-image: url("http://www.kukatko.cz/wp-content/uploads/2012/07/leonardo-dicaprio-rozhovor-interview.jpg");
 }
 .bara{
-  background-image:url("https://i.ytimg.com/vi/OBBLXypP9Mk/maxresdefault.jpg");
+  background-image: url("http://orig10.deviantart.net/8989/f/2007/096/d/8/old_sketch_face_study_2_by_thierryclan14.jpg");
 }
 .bara:hover{
-  background-image: url("http://orig10.deviantart.net/8989/f/2007/096/d/8/old_sketch_face_study_2_by_thierryclan14.jpg");
+  background-image: url("https://i.ytimg.com/vi/OBBLXypP9Mk/maxresdefault.jpg");
 }
 .gandalf{
   background-image: url("http://galeriereklamy.mediar.cz/public/content-images/cz/a_files/2268_sm.jpg");  
